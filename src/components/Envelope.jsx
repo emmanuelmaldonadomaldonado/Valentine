@@ -36,7 +36,7 @@ export default function Envelope({ onOpen }) {
                 {/* Letter Inside */}
                 <motion.div
                     className="absolute left-1/2 transform -translate-x-1/2 bg-white w-[90%] h-[90%] bottom-2 rounded p-4 flex flex-col items-center justify-center shadow-sm z-0"
-                    animate={isOpen ? { y: -200, opacity: 1, zIndex: 10 } : { y: 0, opacity: 0, zIndex: 0 }}
+                    animate={isOpen ? { y: -140, opacity: 1, zIndex: 10 } : { y: 0, opacity: 0, zIndex: 0 }}
                     transition={{ delay: 0.5, duration: 1 }}
                 >
                     <p className="text-red-500 font-bold text-lg">For You ❤️</p>
