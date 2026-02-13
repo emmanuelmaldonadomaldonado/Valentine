@@ -146,7 +146,7 @@ function App() {
                                         padding: `${Math.min(noCount * 0.5 + 1, 2)}rem ${Math.min(noCount * 0.5 + 2, 4)}rem`
                                     }}
                                 >
-                                    <span className="relative z-10">Yes ❤️</span>
+                                    <span className="relative z-10">Yes 🤍</span>
                                     {/* Button Shine Effect */}
                                     <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                                 </motion.button>
